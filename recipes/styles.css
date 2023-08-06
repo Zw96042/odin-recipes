@@ -1,0 +1,14 @@
+* {
+    background-color: darkslategray;
+    color: beige;
+}
+
+.container {
+    text-align: center;
+    text-decoration: none;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
