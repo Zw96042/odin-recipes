@@ -1,19 +1,47 @@
 * {
+    box-sizing: border-box;
+}
+
+body {
     background-color: darkslategray;
     color: beige;
     font-family: Sans-serif;
 }
 
 .container {
-    text-align: center;
     text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+}
+
+.recipe-card {
+    text-align: center;
+    background-color: dimgray;
+    margin: 20px auto;
+    padding: 50px;
+    border: 2px solid bisque;
+}
+
+p {
+    margin-bottom: 20px auto;
 }
 
 ul, ol {
-    display: inline-block;
-    text-align: left;
+    margin: 0px auto;
+    list-style: none;
+}
+
+li, h3 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
 }
 
 img {
     border-radius: 10%;
+    height: auto;
+    width: auto;
 }
