@@ -13,3 +13,7 @@ ul, ol {
     display: inline-block;
     text-align: left;
 }
+
+img {
+    border-radius: 10%;
+}
