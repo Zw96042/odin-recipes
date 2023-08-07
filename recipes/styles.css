@@ -16,15 +16,30 @@ body {
 }
 
 .recipe-card {
-    text-align: center;
     background-color: dimgray;
     margin: 20px auto;
-    padding: 50px;
     border: 2px solid bisque;
 }
 
+.recipe-content {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
 p {
-    margin-bottom: 20px auto;
+    margin-bottom: 25px auto;
+    word-wrap: break-word;
+}
+
+.Ingredients {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Steps {
+    display: inline-block;
+    vertical-align: top;
 }
 
 ul, ol {
@@ -35,6 +50,12 @@ ul, ol {
 
 li, h3 {
     text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+h3 {
+    margin: 10px auto;
 }
 
 h1 {
@@ -43,6 +64,9 @@ h1 {
 
 img {
     border-radius: 10%;
+    display: inline-block;
     height: auto;
     width: auto;
+    margin-right: 30px;
+    vertical-align: middle;
 }
