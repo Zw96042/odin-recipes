@@ -64,9 +64,16 @@ h1 {
 
 img {
     border-radius: 10%;
-    display: inline-block;
+    display: block;
+    margin: auto;
     height: auto;
     width: auto;
-    margin-right: 30px;
+    
+}
+
+.image {
+    text-align: center;
+    display: inline-block;
     vertical-align: middle;
+    width: 300px;
 }
